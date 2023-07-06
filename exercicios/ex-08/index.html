@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        Utilizamos a tag &lt;picture&gt; para colocar dentro a tag &lt;source&gt; e &lt;img&gt;, sendo a source para a mudar a imagem dependendo do tamanho da tela.
+    </p>
+    <p>
+        A tag &lt;source&gt; sera a media:type. Também precisamos de colocar os tamanhos em ordem de tamanho.
+    </p>
+     <picture>
+         <source media="(max-width: 700px)" srcset="imagens/imagem-p.png" type="image/png">
+         <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+         <img src="imagens/imagem-g.png" alt="imagem grande">
+     </picture>
+</body>
+</html>
