@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens dinâmicas</title>
+    <title>Medias</title>
 </head>
 <body>
     <h1>Imagens dinâmicas</h1>
@@ -18,5 +18,13 @@
          <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
          <img src="imagens/imagem-g.png" alt="imagem grande">
      </picture>
+     <h1>Reproduzir audio</h1>
+     <p>Para colocar em áudios você precisa da tag &lt;audio&gt;</p>
+     <p>Dentro do da tag audio você precisa colocar autoplay para o audio reproduzir sozinho e controls para que apareça os ajustes de audio</p>
+     <p>Também podemos colocar loop para quando acabar a musica ele recomeçar</p>
+     <audio src="audios/High Noon - TrackTribe.mp3" controls></audio>
+     <h2>Outra maneira de colocar o audio</h2>
+     <p>Colocar entre as tags audio colocar a tag source com src e type, você pode colocar vários e sources para se ele nao carregar o primeiro, carregar o outro</p>
+
 </body>
 </html>
