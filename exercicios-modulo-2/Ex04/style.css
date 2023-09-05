@@ -1,0 +1,78 @@
+body{
+    background-color: #8C3D35;
+    margin: 0;
+}
+header{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #592C28;
+    height: 40px;
+    text-align: center;
+    padding: auto;
+    margin: 10px;
+    height: max-content;
+    text-shadow: 1px 1px 1px black;
+    display: block;
+}
+footer {
+    background-color: #592C28;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 1px;
+}
+header > h1{
+    margin-bottom: 2px;
+
+}
+
+nav{
+    background-color: #D97B59;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 5px 10px;
+}
+section > article {
+    display: none;
+}
+nav > div{
+    display: block;
+    background-color: #e5977b;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
+}
+nav > h1{
+    font-size: 2em;
+    margin: 0;
+}
+section > h2{
+    padding: 1px;
+    margin: 2px;
+    display: block;
+    font-size: 1.5em;
+}
+section:hover article{
+    margin: 0 3px 8px 2px;
+    background-color: white;
+    border-radius: 0 5px 5px 5px;
+    display: block;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
+    padding: 8px;
+}
+
+section:hover h2{
+    border: solid 1px;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+} 
+footer > h2{
+    margin: 0;
+    height: max-content;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.39);
+    padding: 0;
+}
