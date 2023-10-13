@@ -49,12 +49,12 @@ a:hover{
     border-radius: 5px;
 }
 main {
-    background-color: white;
+background-color: white;
     display: block;
     
     height:min-content;
     margin: auto;
-    padding: 20px;
+    padding: 20px;  
 }
 section > h1 {
     margin: 0;
